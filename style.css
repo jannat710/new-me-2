@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
 /* banner styles */
 .banner-container {
     height: 100vh;
@@ -34,7 +35,7 @@
     color: #444343;
     font-size: 16px;
     font-weight: 400;
-  
+
 }
 
 .btn {
@@ -45,46 +46,56 @@
     color: white;
     border: none;
     margin-top: 20px;
+    font-size: 20px;
 }
+
 /* failure styles */
-.my-pic{
+.my-pic {
     height: 500px;
     width: 500px;
 }
-.failure{
+
+.failure {
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10%;
-   
-}
-.failure-body{
-    width: 15%;
-}
-.failure-heading{
-    color: #151414;
-font-size: 40px;
-font-weight: 700;
+    margin-top: 5%;
 
 }
-.failure-description{
-    color: #444343;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+
+.failure-body {
+    width: 15%;
 }
-ul{
+
+.failure-heading {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.failure-description {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+ul {
     list-style-type: none;
 }
-li{
+
+li {
     color: #444343;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
+
 /* plans style */
-.my-plans{
+.my-plans {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -93,21 +104,103 @@ line-height: 26px;
     text-align: center;
 
 }
-.plans-title{
+
+.plans-title {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
     color: #151414;
-font-size: 40px;
-font-weight: 700;
+    font-size: 40px;
+    font-weight: 700;
 }
-.plans-heading{
-    color:#151414;
-font-size: 30px;
-font-weight: 700;
+
+.plans-heading {
+    color: #151414;
+    font-size: 30px;
+    font-weight: 700;
 }
-.plans-description{
+
+.plans-description {
     color: #737272;
-font-size: 18px;
-font-weight: 500;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.mindset {
+    background-image: url('images/watch.png'), url('images/gradient1.png');
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    padding-top: 2%;
+    padding-left: 2%;
+    margin-top: 8%;
+
+}
+
+.mind-header {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    width: 459px;
+}
+
+.btn2 {
+    border-radius: 5px;
+    background: #FFF;
+    border: none;
+    width: 160px;
+    height: 50px;
+    color: #F15B22;
+    font-size: 20px;
+    margin-top: 1.5%;
+}
+
+/* footer styles */
+.last-part {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+    background-color: #151414;
+    height: auto;
+    margin-top: 7%;
+}
+
+
+.foot-h {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.foot-h2 {
+    color: #F8F8F8;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.foot-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+}
+
+input {
+    background: var(--dark-01, #151414);
+    border: 1px solid white;
+    width: 325px;
+    height: 60px;
+    color: #FFF;
+    font-size: 18px;
+    text-align: left;
+    padding-left: 40px;
+    margin-bottom: 10px;
 }
