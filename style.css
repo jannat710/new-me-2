@@ -77,3 +77,37 @@ line-height: 26px;
 ul{
     list-style-type: none;
 }
+li{
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+/* plans style */
+.my-plans{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+
+}
+.plans-title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #151414;
+font-size: 40px;
+font-weight: 700;
+}
+.plans-heading{
+    color:#151414;
+font-size: 30px;
+font-weight: 700;
+}
+.plans-description{
+    color: #737272;
+font-size: 18px;
+font-weight: 500;
+}
