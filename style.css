@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* banner styles */
+.banner-container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    background-image: url('images/banner/banner1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+
+}
+
+.banner-description {
+    width: 22%;
+    margin-right: 20%;
+    text-align: right;
+
+}
+
+.banner-title {
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    margin-bottom: 2px;
+}
+
+.banner-text {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+  
+}
+
+.btn {
+    border-radius: 5px;
+    background: #F15B22;
+    width: 160px;
+    height: 50px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+}
+/* failure styles */
+.my-pic{
+    height: 500px;
+    width: 500px;
+}
+.failure{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+   
+}
+.failure-body{
+    width: 15%;
+}
+.failure-heading{
+    color: #151414;
+font-size: 40px;
+font-weight: 700;
+
+}
+.failure-description{
+    color: #444343;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+ul{
+    list-style-type: none;
+}
